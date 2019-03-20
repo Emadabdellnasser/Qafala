@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ebda3.sponsorship.WorkersDetails"
+    tools:showIn="@layout/activity_workers_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        android:background="@drawable/backhsp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/log"
+            android:orientation="horizontal">
+
+            <design.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="الاسم :"
+                android:textColor="#464646"
+                android:textSize="14dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="#686262" />
+
+            <design.MyTextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:text="امحمد احمد  "
+                android:textColor="#39a100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/log"
+            android:orientation="horizontal">
+
+            <design.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="المدينه "
+                android:textColor="#464646"
+                android:textSize="14dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="#686262" />
+
+            <design.MyTextView
+                android:id="@+id/city"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:text="دمام "
+                android:textColor="#39a100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/log"
+            android:orientation="horizontal">
+
+            <design.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="العمر:"
+                android:textColor="#464646"
+                android:textSize="14dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="#686262" />
+
+            <design.MyTextView
+                android:id="@+id/age"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:text="25  "
+                android:textColor="#39a100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/log"
+            android:orientation="horizontal">
+
+            <design.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="الجنسيه "
+                android:textColor="#464646"
+                android:textSize="14dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="#686262" />
+
+            <design.MyTextView
+                android:id="@+id/nationalities"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:text="مصري-هندي"
+                android:textColor="#39a100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/log"
+            android:orientation="horizontal">
+
+            <design.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="المهنه في الاقامه :"
+                android:textColor="#464646"
+                android:textSize="14dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="#686262" />
+
+            <design.MyTextView
+                android:id="@+id/profession_in_residence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:text="مصريه -الماني  "
+                android:textColor="#39a100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/log"
+            android:orientation="horizontal">
+
+            <design.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="المهنه الفعليه :"
+                android:textColor="#464646"
+                android:textSize="14dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="#686262" />
+
+            <design.MyTextView
+                android:id="@+id/advantages"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:text="دكتور"
+                android:textColor="#39a100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layoutDirection="rtl"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/log"
+            android:orientation="horizontal">
+
+            <design.MyTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="تاريخ انتهاء صلاحية الاقامه :"
+                android:textColor="#464646"
+                android:textSize="14dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:background="#686262" />
+
+            <design.MyTextView
+                android:id="@+id/expiration_date_of_residence"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:text="25/5"
+                android:textColor="#39a100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/call_phone_kafal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/call" />
+
+                <design.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اتصال  عبر الهاتف"
+                    android:id="@+id/phone"
+                    android:textColor="#fff"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+

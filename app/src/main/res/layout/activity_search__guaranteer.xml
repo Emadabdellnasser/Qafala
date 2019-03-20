@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backhsp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logosp"
+            />
+        <design.MyTextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:text="بحث عن عامل"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layoutDirection="rtl"
+                android:paddingTop="10dp"
+                android:elevation="8dp"
+
+                android:paddingBottom="10dp"
+                android:background="@drawable/log"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/users"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#686262" />
+
+
+                <design.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="6"
+                    android:id="@+id/SearchName"
+                    android:background="@android:color/transparent"
+                    android:hint="الاسم"
+                    android:textColor="#95BD3D"
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:elevation="8dp"
+                android:layoutDirection="rtl"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/log"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/calendar"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#686262" />
+
+
+                <design.MyEditText
+                    android:layout_width="0dp"
+                    android:id="@+id/number_owner"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:inputType="phone"
+                    android:layout_weight="6"
+                    android:background="@android:color/transparent"
+                    android:hint=" العمر"
+                    android:textColor="#95BD3D"
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layoutDirection="rtl"
+                android:paddingTop="10dp"
+                android:elevation="8dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/log"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/bag"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#686262" />
+
+
+
+                <design.MyEditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/pass_owner"
+                    android:layout_weight="6"
+                    android:background="@android:color/transparent"
+                    android:hint="المهنة "
+                    android:textColor="#95BD3D"
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/search"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layoutDirection="rtl"
+                android:paddingTop="10dp"
+                android:elevation="8dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/button"
+                android:orientation="vertical"
+                >
+
+                <design.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="بحث"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:elevation="8dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/progress_owner"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

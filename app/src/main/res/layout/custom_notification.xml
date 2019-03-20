@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:textDirection="locale"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#10304B"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+
+
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="6dp"
+                android:textSize="16dp"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/white"
+                tools:text="Test"/>
+
+            <TextView
+               android:id="@+id/text"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+
+                android:background="@android:color/transparent"
+               android:paddingRight="15dp"
+               android:paddingLeft="15dp"
+               android:textColor="@android:color/white"
+               tools:text="Test" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+
+            android:layout_margin="5dp"
+            android:background="@null"
+
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logosp"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/edit"
+            android:title="تعديل البيانات" />
+        <item
+            android:icon="@drawable/inbox"
+            android:id="@+id/inbox"
+            android:title="طلبات واردة" />
+        <item
+            android:id="@+id/NewRequests"
+            android:icon="@drawable/list2"
+            android:title="طلبات لم يتم الرد عليها" />
+        <item
+            android:id="@+id/policy"
+            android:icon="@drawable/list1"
+            android:title="الشروط والاحكام" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/mail"
+            android:title="مراسلة الادارة" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="مشاركة التطبيق" />
+    </group>
+
+
+
+</menu>

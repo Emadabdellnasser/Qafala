@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:scaleX=".9"
+    android:scaleY=".9"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:id="@+id/photo"
+            android:layout_width="115dp"
+            android:background="@drawable/imag_border"
+            android:layout_height="70dp"
+            android:adjustViewBounds="true"
+            android:elevation="4dp"
+            android:src="@drawable/car3"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingRight="15dp"
+            android:layout_height="wrap_content">
+            <design.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:textSize="16dp"
+                android:textColor="#333"
+                android:text="اسم المؤسسه "/>
+            <design.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12.5dp"
+                android:layout_marginTop="7dp"
+                android:id="@+id/professions"
+                android:textColor="#ff0000"
+                android:text="المهن المطلوبة "/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:text=""></android.support.v4.widget.Space>
+
+
+</LinearLayout>
+

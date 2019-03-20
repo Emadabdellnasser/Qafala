@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/backhsp"
+    android:layoutDirection="rtl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:minHeight="300dp"
+        android:padding="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutExchange"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <design.MyTextView
+                android:textSize="18dp"
+                android:layout_marginBottom="7dp"
+                android:textAlignment="gravity"
+                android:text="@string/forget_password"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <design.MyTextView
+                android:textAlignment="gravity"
+                android:text="@string/forget_password1"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layoutDirection="rtl">
+
+
+
+
+                <ImageView
+                    android:id="@+id/imageView100"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@drawable/phone" />
+
+                <design.MyEditText
+                    android:id="@+id/full_name_log"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="14dp"
+                    android:gravity="left"
+                    android:textColor="#95BD3D"
+                    android:hint="5xxxxxxxx"
+                    android:maxLength="10"
+                    android:inputType="phone"
+
+
+                    android:layout_weight="8"
+                    />
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="15dp"
+                    android:text="00966"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:id="@+id/Confirm"
+                android:layoutDirection="locale"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:background="#1976d2"
+                android:gravity="center"
+                android:layout_height="45dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:elevation="8dp"
+                android:baselineAligned="true">
+
+                <design.MyTextView
+                    android:textSize="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forget_password2"
+                    android:textColor="@color/white" />
+
+                <ImageView
+
+                    android:src="@drawable/check"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ConfirmProgress"
+                android:layoutDirection="locale"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:baselineAligned="true">
+                <ProgressBar
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <design.MyTextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_width="260dp"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

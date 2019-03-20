@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backhsp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/logosp"/>
+        <design.MyTextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text=" تسجيل صاحب الكفالة"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.78">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:elevation="8dp"
+                android:layoutDirection="rtl"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:background="@drawable/log"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/phone"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#686262" />
+                <design.MyEditText
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="0dp"
+                    android:id="@+id/phone"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    android:textColor="#95BD3D"
+                    android:hint="5xxxxxxxxxx"
+                    android:maxLength="15"
+                    android:inputType="phone"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:textColorHint="#000"
+                    android:background="@android:color/transparent"                    />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="15dp"
+                    android:text="00966"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/log"
+                android:layout_marginLeft="20dp"
+                android:layoutDirection="rtl"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="15dp"
+                android:elevation="8dp"
+                android:paddingTop="15dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/lock"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#686262" />
+                <design.MyEditText
+                    android:gravity="right"
+                    android:id="@+id/password"
+                    android:inputType="textPassword"
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    android:textColor="#95BD3D"
+                    android:hint="كلمة المرور"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:textColorHint="#000"
+                    android:background="@android:color/transparent"                    />
+
+
+            </LinearLayout>
+
+
+            <ProgressBar
+                android:visibility="gone"
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical"/>
+            <LinearLayout
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:elevation="8dp"
+                android:orientation="vertical">
+
+                <design.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:text="   تسجيل "
+                    android:textSize="18dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#5E4534</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#0D47A1</color>
+
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#9668E6</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="white_tranparent">#90ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="orange">#FED136</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button">#11304C</color>
+    <color name="red">#f20000</color>
+    <color name="land">#E5E5E5</color>
+    <color name="AppColorOrange">#1976d2</color>
+    <color name="AppColorBg">#5E4534</color>
+    <color name="AppColordarkblue">#2b7199</color>
+    <color name="AppColorBgSimple">#937a69</color>
+
+</resources>
